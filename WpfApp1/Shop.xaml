@@ -20,42 +20,24 @@
             <ColumnDefinition Width="50*" />
         </Grid.ColumnDefinitions>
         <Image Width="100" Height="100" Source="zoom2k.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0,0,0" />
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FFC71585">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FFC71585" Margin="60,0,0,0" FontSize="15">
             Nike Zoom 2k - 550 lei
         </Label>
         <Image Width="100" Height="100" Source="nitejoggers.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0,0,0" Grid.Row="1" />
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Foreground="#FFC71585">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Foreground="#FFC71585" Margin="100,0,0,0" FontSize="15">
             Air Force 1 Flyknit 1 - 600 lei
         </Label>
         <Image Width="100" Height="100" Source="af1fl.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0,0,0" Grid.Row="2" />
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Foreground="#FFC71585">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Foreground="#FFC71585" Margin="100,0,0,0" FontSize="15">
             Adidas Nite Joggers - 577 lei
         </Label>
-        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" />
-        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="1" VerticalAlignment="Center" Grid.Column="1"  />
-        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1"  />
+        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" Click="button1_Click"/>
+        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="1" VerticalAlignment="Center" Grid.Column="1" Click="button2_Click" />
+        <Button Width="70" Height="25" Content="Buy" HorizontalAlignment="center" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1"  Click="button3_Click"/>
         <Grid.Background>
             <ImageBrush ImageSource="123.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <!--<Button Margin="5" Content="Buy" Cursor="Hand">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <TextBlock TextDecorations="Underline">
-                <ContentPresenter />
-                    </TextBlock>
-                </ControlTemplate>
-            </Button.Template>
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Foreground" Value="Blue" />
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="true">
-                            <Setter Property="Foreground" Value="Red" />
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
-        </Button>-->
+
 
     </Grid>
 
